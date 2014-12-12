@@ -13,18 +13,12 @@
 		582E27801A3992D1008137F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582E277E1A3992D1008137F1 /* Main.storyboard */; };
 		582E27821A3992D1008137F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 582E27811A3992D1008137F1 /* Images.xcassets */; };
 		582E27851A3992D1008137F1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 582E27831A3992D1008137F1 /* LaunchScreen.xib */; };
-		582E27911A3992D1008137F1 /* CustomShapeButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 582E27901A3992D1008137F1 /* CustomShapeButtonTests.m */; };
+		582E279D1A39932E008137F1 /* CustomShapeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 582E279C1A39932E008137F1 /* CustomShapeButton.m */; };
+		58B150CD1A3B5E9900DA4F21 /* btn1.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B150C91A3B5E9900DA4F21 /* btn1.png */; };
+		58B150CE1A3B5E9900DA4F21 /* btn4.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B150CA1A3B5E9900DA4F21 /* btn4.png */; };
+		58B150CF1A3B5E9900DA4F21 /* btn3.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B150CB1A3B5E9900DA4F21 /* btn3.png */; };
+		58B150D01A3B5E9900DA4F21 /* btn2.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B150CC1A3B5E9900DA4F21 /* btn2.png */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		582E278B1A3992D1008137F1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 582E27691A3992D1008137F1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 582E27701A3992D1008137F1;
-			remoteInfo = CustomShapeButton;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		582E27711A3992D1008137F1 /* CustomShapeButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomShapeButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,20 +31,16 @@
 		582E277F1A3992D1008137F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		582E27811A3992D1008137F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		582E27841A3992D1008137F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		582E278A1A3992D1008137F1 /* CustomShapeButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomShapeButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		582E278F1A3992D1008137F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		582E27901A3992D1008137F1 /* CustomShapeButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomShapeButtonTests.m; sourceTree = "<group>"; };
+		582E279B1A39932E008137F1 /* CustomShapeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomShapeButton.h; sourceTree = "<group>"; };
+		582E279C1A39932E008137F1 /* CustomShapeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomShapeButton.m; sourceTree = "<group>"; };
+		58B150C91A3B5E9900DA4F21 /* btn1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn1.png; sourceTree = "<group>"; };
+		58B150CA1A3B5E9900DA4F21 /* btn4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn4.png; sourceTree = "<group>"; };
+		58B150CB1A3B5E9900DA4F21 /* btn3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn3.png; sourceTree = "<group>"; };
+		58B150CC1A3B5E9900DA4F21 /* btn2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		582E276E1A3992D1008137F1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		582E27871A3992D1008137F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				582E27731A3992D1008137F1 /* CustomShapeButton */,
-				582E278D1A3992D1008137F1 /* CustomShapeButtonTests */,
 				582E27721A3992D1008137F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				582E27711A3992D1008137F1 /* CustomShapeButton.app */,
-				582E278A1A3992D1008137F1 /* CustomShapeButtonTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +77,8 @@
 				582E27811A3992D1008137F1 /* Images.xcassets */,
 				582E27831A3992D1008137F1 /* LaunchScreen.xib */,
 				582E27741A3992D1008137F1 /* Supporting Files */,
+				582E279B1A39932E008137F1 /* CustomShapeButton.h */,
+				582E279C1A39932E008137F1 /* CustomShapeButton.m */,
 			);
 			path = CustomShapeButton;
 			sourceTree = "<group>";
@@ -96,25 +86,12 @@
 		582E27741A3992D1008137F1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				58B150C91A3B5E9900DA4F21 /* btn1.png */,
+				58B150CA1A3B5E9900DA4F21 /* btn4.png */,
+				58B150CB1A3B5E9900DA4F21 /* btn3.png */,
+				58B150CC1A3B5E9900DA4F21 /* btn2.png */,
 				582E27751A3992D1008137F1 /* Info.plist */,
 				582E27761A3992D1008137F1 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		582E278D1A3992D1008137F1 /* CustomShapeButtonTests */ = {
-			isa = PBXGroup;
-			children = (
-				582E27901A3992D1008137F1 /* CustomShapeButtonTests.m */,
-				582E278E1A3992D1008137F1 /* Supporting Files */,
-			);
-			path = CustomShapeButtonTests;
-			sourceTree = "<group>";
-		};
-		582E278E1A3992D1008137F1 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				582E278F1A3992D1008137F1 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,24 +116,6 @@
 			productReference = 582E27711A3992D1008137F1 /* CustomShapeButton.app */;
 			productType = "com.apple.product-type.application";
 		};
-		582E27891A3992D1008137F1 /* CustomShapeButtonTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 582E27971A3992D1008137F1 /* Build configuration list for PBXNativeTarget "CustomShapeButtonTests" */;
-			buildPhases = (
-				582E27861A3992D1008137F1 /* Sources */,
-				582E27871A3992D1008137F1 /* Frameworks */,
-				582E27881A3992D1008137F1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				582E278C1A3992D1008137F1 /* PBXTargetDependency */,
-			);
-			name = CustomShapeButtonTests;
-			productName = CustomShapeButtonTests;
-			productReference = 582E278A1A3992D1008137F1 /* CustomShapeButtonTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +127,7 @@
 				TargetAttributes = {
 					582E27701A3992D1008137F1 = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					582E27891A3992D1008137F1 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 582E27701A3992D1008137F1;
+						DevelopmentTeam = JQ4EU4FE8Y;
 					};
 				};
 			};
@@ -189,7 +145,6 @@
 			projectRoot = "";
 			targets = (
 				582E27701A3992D1008137F1 /* CustomShapeButton */,
-				582E27891A3992D1008137F1 /* CustomShapeButtonTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,16 +154,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58B150CD1A3B5E9900DA4F21 /* btn1.png in Resources */,
+				58B150CE1A3B5E9900DA4F21 /* btn4.png in Resources */,
+				58B150CF1A3B5E9900DA4F21 /* btn3.png in Resources */,
 				582E27801A3992D1008137F1 /* Main.storyboard in Resources */,
 				582E27851A3992D1008137F1 /* LaunchScreen.xib in Resources */,
 				582E27821A3992D1008137F1 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		582E27881A3992D1008137F1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				58B150D01A3B5E9900DA4F21 /* btn2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,27 +173,12 @@
 			files = (
 				582E277D1A3992D1008137F1 /* ViewController.m in Sources */,
 				582E277A1A3992D1008137F1 /* AppDelegate.m in Sources */,
+				582E279D1A39932E008137F1 /* CustomShapeButton.m in Sources */,
 				582E27771A3992D1008137F1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		582E27861A3992D1008137F1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				582E27911A3992D1008137F1 /* CustomShapeButtonTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		582E278C1A3992D1008137F1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 582E27701A3992D1008137F1 /* CustomShapeButton */;
-			targetProxy = 582E278B1A3992D1008137F1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		582E277E1A3992D1008137F1 /* Main.storyboard */ = {
@@ -343,9 +280,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CustomShapeButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -353,43 +293,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CustomShapeButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		582E27981A3992D1008137F1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CustomShapeButtonTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomShapeButton.app/CustomShapeButton";
-			};
-			name = Debug;
-		};
-		582E27991A3992D1008137F1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CustomShapeButtonTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomShapeButton.app/CustomShapeButton";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -412,14 +321,7 @@
 				582E27961A3992D1008137F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		582E27971A3992D1008137F1 /* Build configuration list for PBXNativeTarget "CustomShapeButtonTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				582E27981A3992D1008137F1 /* Debug */,
-				582E27991A3992D1008137F1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

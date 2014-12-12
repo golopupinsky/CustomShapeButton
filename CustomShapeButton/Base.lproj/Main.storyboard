@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A388a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,11 +16,67 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ydy-0e-NLW" customClass="CustomShapeButton">
+                                <rect key="frame" x="225" y="20" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="7fJ-fh-9zS"/>
+                                    <constraint firstAttribute="width" constant="150" id="BYS-sB-hCH"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="btn1.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l09-gc-DEj" customClass="CustomShapeButton">
+                                <rect key="frame" x="434" y="225" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="QYp-2T-OqG"/>
+                                    <constraint firstAttribute="height" constant="150" id="scP-TH-sZS"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="btn2.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4N-SW-Oq2" customClass="CustomShapeButton">
+                                <rect key="frame" x="16" y="225" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="iEZ-bJ-cdy"/>
+                                    <constraint firstAttribute="height" constant="150" id="t7h-FW-wKS"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="btn4.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GP3-Wm-9e8" customClass="CustomShapeButton">
+                                <rect key="frame" x="225" y="430" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="cFc-gs-aUI"/>
+                                    <constraint firstAttribute="height" constant="150" id="ssF-Gf-cop"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="btn3.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ydy-0e-NLW" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="3Ug-3H-EVn"/>
+                            <constraint firstItem="l09-gc-DEj" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="3ns-tE-7zW"/>
+                            <constraint firstItem="x4N-SW-Oq2" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="Vhg-1U-aib"/>
+                            <constraint firstAttribute="centerY" secondItem="l09-gc-DEj" secondAttribute="centerY" id="iDG-hs-D9Q"/>
+                            <constraint firstAttribute="centerX" secondItem="GP3-Wm-9e8" secondAttribute="centerX" id="n8q-DR-iyh"/>
+                            <constraint firstAttribute="bottom" secondItem="GP3-Wm-9e8" secondAttribute="bottom" constant="20" symbolic="YES" id="nQa-h0-LBi"/>
+                            <constraint firstItem="Ydy-0e-NLW" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="xf2-sx-UhL"/>
+                            <constraint firstItem="x4N-SW-Oq2" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="zVY-W2-Vmk"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="btn1.png" width="100" height="100"/>
+        <image name="btn2.png" width="100" height="100"/>
+        <image name="btn3.png" width="100" height="100"/>
+        <image name="btn4.png" width="100" height="100"/>
+    </resources>
 </document>
